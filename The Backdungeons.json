@@ -92,7 +92,7 @@
 			],
 			"action": [
 				{
-					"name": "Magical Gift (PB/Day)",
+					"name": "Magical Gift (1/Day)",
 					"entries": [
 						"The chwinga targets a humanoid it can see within 5 feet of it. The target gains a {@filter supernatural charm|rewards|type=charm} of your choice from the ones available to you."
 					]
