@@ -46,7 +46,7 @@
 			"wis": 16,
 			"cha": 16,
 			"save": {
-				"dex": "+5 plus PB",
+				"dex": "+5 plus PB"
 			},
 			"skill": {
 				"acrobatics": "+5 plus PB",
