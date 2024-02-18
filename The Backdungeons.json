@@ -51,7 +51,7 @@
 			"skill": {
 				"acrobatics": "+5 plus PB",
 				"perception": "+3 plus PB",
-				"stealth": "+5 plus PB × 2"
+				"stealth": "+5 plus (PB × 2)"
 			},
 			"senses": [
 				"blindsight 60 ft."
