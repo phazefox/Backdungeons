@@ -1,0 +1,956 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "TheBackdungeons",
+				"abbreviation": "BD",
+				"full": "The Backdungeons",
+				"url": "",
+				"authors": [
+					"phazefox"
+				],
+				"convertedBy": [],
+				"color": "#8ab7ff"
+			}
+		]
+	},
+	"monster": [
+		{
+			"name": "Throng the Defiler",
+			"source": "TheBackdungeons",
+			"size": [
+				"L"
+			],
+			"type": {
+				"type": "giant",
+				"tags": [
+					"ogre"
+				]
+			},
+			"alignment": [
+				"C",
+				"E"
+			],
+			"alignmentPrefix": "Typically ",
+			"ac": [
+				{
+					"ac": 14,
+					"from": [
+						"{@item hide armor|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "28d10 + 84",
+				"average": 238
+			},
+			"speed": {
+				"walk": 40
+			},
+			"str": 19,
+			"dex": 8,
+			"con": 16,
+			"int": 10,
+			"wis": 7,
+			"cha": 7,
+			"senses": [
+				"darkvision 60 ft."
+			],
+			"passive": 8,
+			"languages": [
+				"Giant"
+			],
+			"cr": "9",
+			"trait": [
+				{
+					"name": "Siege Monster",
+					"entries": [
+						"Throng deals double damage to objects and structures."
+					]
+				},
+				{
+					"name": "Keen Smell",
+					"entries": [
+						"Throng has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"Throng makes two Bash attacks, two Fist attacks, or one of each."
+					]
+				},
+				{
+					"name": "Bash",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage, and Throng can push the target 5 feet away if the target is Huge or smaller."
+					]
+				},
+				{
+					"name": "Fist",
+					"entries": [
+						"{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) bludgeoning damage."
+					]
+				},
+				{
+					"name": "Tremor {@recharge 5}",
+					"entries": [
+						"Throng slams his battering ram on the ground, causing a small tremor. Each creature within 15ft of him must succeed on a {@dc 15} dexterity saving throw or take {@h}11 ({@damage 2d10}) bludgeoning damage and be knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. If the ground in the area is loose earth or stone, it becomes difficult terrain until cleared. each 5ft diameter takes 1 minute to clear by hand."
+					]
+				}
+			],
+			"reaction": [
+				{
+					"name": "Block the Path",
+					"entries": [
+						"When a creature enters a space within 5 feet of Throng, he makes a Bash attack against that creature. If the attack hits, the target's speed is reduced to 0 until the start of Throng's next turn."
+					]
+				}
+			],
+			"environment": [
+				"grassland",
+				"hill",
+				"mountain"
+			],
+			"traitTags": [
+				"Keen Senses",
+				"Siege Monster"
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"GI"
+			],
+			"miscTags": [
+				"MW"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Ogre Battering Ram.png",
+			"fluff": {
+				"name": "Ogre Battering Ram",
+				"source": "MPMM",
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Ogre Battering Ram.webp"
+						},
+						"credit": "Craig J Spearing"
+					}
+				],
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"An ogre battering ram carries an enormous club that's primarily used for bashing doors into kindling but also works well for smashing foes. These ogres are drilled in two simple tasks: rushing forward to shatter enemy fortifications and using their weapons to force an advancing enemy to halt."
+						]
+					},
+					{
+						"type": "section",
+						"name": "Ogres of War",
+						"entries": [
+							"Ogres love to rush headlong into battle, but with enough time and patience, some of them learn to carry out specialized missions. The names they are given—the battering ram, the bolt launcher, the chain brute, and the howdah—reflect their particular functions. These jobs are tailored to take advantage of an ogre's strengths."
+						]
+					}
+				]
+			},
+			"save": {
+				"str": "+7",
+				"con": "+6"
+			},
+			"pbNote": "+3",
+			"conditionInflict": [
+				"prone"
+			],
+			"legendaryActions": 2,
+			"isNamedCreature": true,
+			"legendary": [
+				{
+					"name": "Attack",
+					"entries": [
+						"Throng makes one Fist or Bash attack."
+					]
+				},
+				{
+					"name": "Move",
+					"entries": [
+						"Throng moves up to half his speed."
+					]
+				}
+			],
+			"damageTags": [
+				"B"
+			],
+			"savingThrowForced": [
+				"dexterity"
+			]
+		},
+		{
+			"name": "Big Deep Dragon Wyrmling",
+			"source": "TheBackdungeons",
+			"page": 175,
+			"size": [
+				"M"
+			],
+			"type": "dragon",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"alignmentPrefix": "typically ",
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"formula": "10d8 + 10",
+				"average": 55
+			},
+			"speed": {
+				"walk": 30,
+				"burrow": 15,
+				"fly": 60,
+				"swim": 30
+			},
+			"str": 14,
+			"dex": 11,
+			"con": 12,
+			"int": 11,
+			"wis": 12,
+			"cha": 13,
+			"save": {
+				"dex": "+2",
+				"con": "+3",
+				"wis": "+3",
+				"cha": "+3"
+			},
+			"skill": {
+				"perception": "+3",
+				"persuasion": "+3",
+				"stealth": "+4"
+			},
+			"senses": [
+				"blindsight 10 ft.",
+				"darkvision 90 ft."
+			],
+			"passive": 13,
+			"resist": [
+				"poison",
+				"psychic"
+			],
+			"conditionImmune": [
+				"charmed",
+				"frightened",
+				"poisoned"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d10 + 2}) piercing damage plus 3 ({@damage 1d6}) poison damage.."
+					]
+				},
+				{
+					"name": "Nightmare Breath {@recharge 5}",
+					"entries": [
+						"The dragon exhales a cloud of spores in a 15-foot cone. Each creature in that area must make a {@dc 13} Wisdom saving throw. On a failed save, the creature takes 11 ({@damage 2d10}) psychic damage, and it is {@condition frightened} of the dragon for 1 minute. On a successful save, the creature takes half as much damage with no additional effects. A {@condition frightened} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			],
+			"variant": [
+				{
+					"type": "inset",
+					"name": "Customizing Dragons",
+					"source": "FTD",
+					"page": 33,
+					"entries": [
+						"You can customize any dragon's stat block to reflect the dragon's unique character. Minor changes such as those below are easy to make and have no impact on a dragon's challenge rating.",
+						{
+							"type": "entries",
+							"name": "Languages",
+							"entries": [
+								"Most dragons prefer to speak Draconic but learn Common for dealing with allies and minions. But given their high Intelligence and long life span, dragons can easily learn additional languages. You can add languages to a dragon's stat block."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Skills",
+							"entries": [
+								"Most dragons are proficient in the {@skill Perception} and {@skill Stealth} skills, and many dragons have additional skill proficiencies. As with languages, you can customize a dragon's skill list (even doubling their proficiency bonus with certain skills) to reflect particular interests and activities. You can also give a dragon tool proficiencies, particularly if the dragon spends time in Humanoid form."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spells",
+							"entries": [
+								"{@note See the \"Variant: Dragons as Innate Spellcasters\" inset(s), below.}"
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Other Traits and Actions",
+							"entries": [
+								"You can borrow traits and actions from other monsters to add unique flavor to a dragon. Consider these examples:",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Change Shape",
+											"entries": [
+												"You can decide that a dragon acquires this action at a younger age than usual, particularly if you want to feature a dragon in Humanoid form in your campaign:",
+												"The dragon magically polymorphs into a humanoid or beast that has a challenge rating no higher than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the dragon's choice).",
+												"In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Flyby",
+											"entries": [
+												"The dragon is an agile flier, quick to fly out of enemies' reach.",
+												"The dragon doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Mimicry",
+											"entries": [
+												"Impersonating characters or their allies could be a fun trick for a crafty dragon.",
+												"The dragon can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful {@dc 9} Wisdom ({@skill Insight}) check."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Rejuvenation",
+											"entries": [
+												"You might decide that dragons in your campaign, being an essential part of the Material Plane, are nearly impossible to destroy. A dragon's life essence might be preserved in the egg from which it first emerged, in its hoard, or in a cavernous hall at the center of the world, just as a lich's essence is hidden in a phylactery.",
+												"If it has an essence-preserving object, a destroyed dragon gains a new body in {@dice 1d10} days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the object."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Special Senses",
+											"entries": [
+												"Most dragons have {@sense blindsight} and {@sense darkvision}. You might upgrade {@sense blindsight} to {@sense truesight}, or you could give a dragon with a burrowing speed {@sense tremorsense|MM}."
+											]
+										},
+										{
+											"type": "item",
+											"name": "Tunneler",
+											"entries": [
+												"The dragon can burrow through solid rock at half its burrowing speed and leaves a tunnel in its wake."
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"dragonAge": "wyrmling",
+			"senseTags": [
+				"B",
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/FTD/Deep Dragon Wyrmling.png",
+			"fluff": {
+				"name": "Deep Dragon Wyrmling",
+				"source": "FTD",
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Making their lairs in the depths of the Underdark, deep dragons are nightmarish cousins of chromatic dragons. The warped magical energy of their subterranean realm gives them the ability to exhale magical spores that instill fear and scar the mind.",
+							"Deep dragons' black-and-gray hide is smooth like a salamander's, and their eyes are pale. As they age, their spore breath causes fungi to bloom across their skin, especially around the head and neck. Their wings are attached to their front legs and can fold in close to the body, allowing deep dragons to easily maneuver through relatively narrow tunnels.",
+							"Deep dragons often hoard secrets, delighting in knowledge of far-off lands. Many seek out new insights and tricks that they can use against other denizens of the Underdark, preferring social manipulation and crafty dealmaking to exerting themselves in combat. Deep dragons look down on any creature that isn't useful to them, though they are willing to bargain for knowledge they lack."
+						]
+					},
+					{
+						"type": "section",
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Creating a Deep Dragon",
+								"entries": [
+									"Use the Deep Dragon Personality Traits and Deep Dragon Ideals tables to inspire your portrayal of distinctive deep dragon characters, and use the Deep Dragon Spellcasting table to help select spells for a spellcasting dragon.",
+									{
+										"type": "entries",
+										"name": "Deep Dragon Personality Traits",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"d8",
+													"Trait"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"1",
+														"I will not risk injury at the hands of weaker creatures—especially while I can turn them against one another and have them fight in my stead."
+													],
+													[
+														"2",
+														"It is difficult for anyone not of dragonkind to penetrate the twisting labyrinth of my thoughts."
+													],
+													[
+														"3",
+														"I might disagree with other dragons, but we are superior beings and should not lower ourselves to direct conflict."
+													],
+													[
+														"4",
+														"I have no interest in going to the surface world. It's where one sends one's servants."
+													],
+													[
+														"5",
+														"While the petty squabbles of other creatures bore and irritate me, I might hear out those who demonstrate an appreciation for the finer things in life by bringing me delicacies like clams or aboleth flesh."
+													],
+													[
+														"6",
+														"I might be willing to exert myself to take out a mind flayer. Those disgusting creatures must be stopped."
+													],
+													[
+														"7",
+														"I dream of seeing the deepest places in the ocean."
+													],
+													[
+														"8",
+														"I find I rather enjoy the company of people—as long as they remain unaware of my true nature."
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Deep Dragon Ideals",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"d6",
+													"Ideal"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"1",
+														"Understanding. True power comes from the ability to discern other creatures' motivations better than they can discern yours. (Any)"
+													],
+													[
+														"2",
+														"Kindred. All dragons are kin to one another, and we would all do well to prioritize that kinship. (Any)"
+													],
+													[
+														"3",
+														"Mystery. I appreciate a question I cannot answer, so I strive to be an enigma for other creatures. (Any)"
+													],
+													[
+														"4",
+														"Adaptability. Whether taking on a new form, making new allies, or trying a new strategy, flexibility keeps one youthful. (Chaotic)"
+													],
+													[
+														"5",
+														"Superiority. Weaker creatures cannot be trusted, so I constantly remind my servants of my power. (Evil)"
+													],
+													[
+														"6",
+														"Patience. All creatures might teach me something, and I'm willing to wait and find out what that might be rather than acting in haste. (Good)"
+													]
+												]
+											}
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Deep Dragon Adventures",
+								"entries": [
+									"The Deep Dragon Adventure Hooks table offers suggestions for stories and adventures involving deep dragons.",
+									{
+										"type": "entries",
+										"name": "Deep Dragon Adventure Hooks",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"d8",
+													"Adventure Hook"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"1",
+														"Unfamiliar drow adventurers have been prowling a city's streets at night and have been overheard talking about the dragon they serve."
+													],
+													[
+														"2",
+														"Svirfneblin hire the characters to deliver tribute to their deep dragon neighbor."
+													],
+													[
+														"3",
+														"A disguised deep dragon offers access to rare artifacts—to a party who is willing to partner up on a seafood shipping business."
+													],
+													[
+														"4",
+														"A talented young ranger is kidnapped by a deep dragon who wants a hunting partner."
+													],
+													[
+														"5",
+														"A friendly young copper dragon seeks an entourage, hoping to impress the deep dragon holding the copper dragon's inheritance in trust."
+													],
+													[
+														"6",
+														"A deep dragon wants to know if rumors of a sea monster in an Underdark lake are true, so the dragon hires adventurers to investigate."
+													],
+													[
+														"7",
+														"Two Underdark settlements are about to go to war, having been carefully manipulated by a deep dragon. A desperate ruler offers a reward to anyone who can uncover the true cause of the hostility."
+													],
+													[
+														"8",
+														"A deep dragon wants someone to manufacture a scenario that will get the dragon out of an old commitment to protect a city."
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Connected Creatures",
+										"entries": [
+											"Deep dragons appreciate the company of other dragons. Although they view most other species as inferior to dragonkind, having worth only as servants or tools, the rare individuals who impress them can sometimes earn respect as partners—albeit junior ones."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Deep Dragon Wyrmling Connections",
+										"entries": [
+											{
+												"type": "table",
+												"colLabels": [
+													"d6",
+													"Connected Creatures"
+												],
+												"colStyles": [
+													"col-2 text-center",
+													"col-10"
+												],
+												"rows": [
+													[
+														"1",
+														"An ogre has acquired a deep dragon wyrmling as a pet, ignoring the fact that the dragon is an intelligent creature who will grow extremely large."
+													],
+													[
+														"2",
+														"An inquisitive deep dragon wyrmling has made it to the surface world. Lost and confused, the wyrmling has been captured by a group of cruel adventurers."
+													],
+													[
+														"3",
+														"A deep dragon wyrmling whimsically rules over a worshipful group of kobolds, sending them to the surface to fetch delicacies the wyrmling craves."
+													],
+													[
+														"4",
+														"An exclusive auction in an enclave of Lolth-worshipers features a deep dragon egg just about to hatch."
+													],
+													[
+														"5",
+														"A deep dragon wyrmling with an experimental bent has created a \"garden\" of gray oozes."
+													],
+													[
+														"6",
+														"An orphaned deep dragon wyrmling is cared for by a giant constrictor snake that is the recipient of a druid's {@spell awaken} spell."
+													]
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/FTD/Deep Dragon Wyrmling.webp"
+						},
+						"credit": "Brynn Metheney"
+					}
+				]
+			},
+			"damageTags": [
+				"I",
+				"P",
+				"Y"
+			],
+			"savingThrowForced": [
+				"wisdom"
+			]
+		},
+		{
+			"name": "Sparking Behir",
+			"source": "TheBackdungeons",
+			"page": 158,
+			"legendary": [
+				{
+					"name": "Move",
+					"entries": [
+						"The behir moves up to half it's speed"
+					]
+				},
+				{
+					"name": "Spark",
+					"entries": [
+						"The behir produces arcing electricity around it, each creature within 5 feet of it must succeed on a {@dc 16} dexterity saving throw or take 4 ({@damage 1d8}) lightning damage and be unable to take reactions until the start of its next turn."
+					]
+				},
+				{
+					"name": "Arc Flash",
+					"entries": [
+						"The behir casts {@spell color spray} at 2nd level, requiring no components."
+					]
+				},
+				{
+					"name": "Discharge (Costs 2 Actions)",
+					"entries": [
+						"The behir uses Spark while moving up to half it's speed. Each creature within range while it moves is affected by Spark"
+					]
+				}
+			],
+			"size": [
+				"H"
+			],
+			"type": "monstrosity",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"ac": [
+				{
+					"ac": 17,
+					"from": [
+						"natural armor"
+					]
+				}
+			],
+			"hp": {
+				"average": 168,
+				"formula": "16d12 + 64"
+			},
+			"speed": {
+				"walk": 50,
+				"climb": 40
+			},
+			"str": 23,
+			"dex": 16,
+			"con": 18,
+			"int": 7,
+			"wis": 14,
+			"cha": 12,
+			"skill": {
+				"perception": "+6",
+				"stealth": "+7"
+			},
+			"senses": [
+				"darkvision 90 ft."
+			],
+			"passive": 16,
+			"immune": [
+				"lightning"
+			],
+			"languages": [
+				"Draconic"
+			],
+			"cr": "11",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The behir makes two attacks: one with its bite and one to constrict."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 10 ft., one target. {@h}22 ({@damage 3d10 + 6}) piercing damage."
+					]
+				},
+				{
+					"name": "Constrict",
+					"entries": [
+						"{@atk mw} {@hit 10} to hit, reach 5 ft., one Large or smaller creature. {@h}17 ({@damage 2d10 + 6}) bludgeoning damage plus 17 ({@damage 2d10 + 6}) slashing damage. The target is {@condition grappled} (escape {@dc 16}) if the behir isn't already constricting a creature, and the target is {@condition restrained} until this grapple ends."
+					]
+				},
+				{
+					"name": "Lightning Breath {@recharge 5}",
+					"entries": [
+						"The behir exhales a line of lightning that is 20 feet long and 5 feet wide. Each creature in that line must make a {@dc 16} Dexterity saving throw, taking 66 ({@damage 12d10}) lightning damage on a failed save, or half as much damage on a successful one."
+					]
+				},
+				{
+					"name": "Swallow",
+					"entries": [
+						"The behir makes one bite attack against a Medium or smaller target it is grappling. If the attack hits, the target is also swallowed, and the grapple ends. While swallowed, the target is {@condition blinded} and {@condition restrained}, it has total cover against attacks and other effects outside the behir, and it takes 21 ({@damage 6d6}) acid damage at the start of each of the behir's turns. A behir can have only one creature swallowed at a time.",
+						"If the behir takes 30 damage or more on a single turn from the swallowed creature, the behir must succeed on a {@dc 14} Constitution saving throw at the end of that turn or regurgitate the creature, which falls {@condition prone} in a space within 10 feet of the behir. If the behir dies, a swallowed creature is no longer {@condition restrained} by it and can escape from the corpse by using 15 feet of movement, exiting {@condition prone}."
+					]
+				}
+			],
+			"senseTags": [
+				"D"
+			],
+			"actionTags": [
+				"Breath Weapon",
+				"Multiattack",
+				"Swallow"
+			],
+			"languageTags": [
+				"DR"
+			],
+			"miscTags": [
+				"MW",
+				"RCH",
+				"AOE"
+			],
+			"conditionInflict": [
+				"blinded",
+				"grappled",
+				"restrained"
+			],
+			"tokenUrl": "https://5e.tools/img/WDMM/Runed Behir.png",
+			"fluff": {
+				"entries": [
+					"This behir variant has greater electric potential than usual, and sports glowing blue lines resembling cracks along it's sides."
+				]
+			},
+			"damageTags": [
+				"A",
+				"B",
+				"L",
+				"P",
+				"S"
+			],
+			"savingThrowForced": [
+				"constitution",
+				"dexterity"
+			]
+		}
+	],
+	"spell": [
+		{
+			"name": "Shadowflash",
+			"source": "TheBackdungeons",
+			"basicRules": true,
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"A 15 foot diameter sphere of magical darkness expands from a point you choose within range. Choose up to six creatures or one object covered by the darkness, which then collapses, instantly transporting the chosen targets to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube. If you target an unwilling creature or an object held by one, the creature must succeed on a charisma saving throw to avoid it or the object being transported.",
+				"The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The DM rolls {@dice d100} and consults the table.",
+				"Regardless of outcome, the affected targets appear from shadows at the location they are transported to, or failing that the nearest shadows available.",
+				{
+					"type": "table",
+					"caption": "Teleportation",
+					"colLabels": [
+						"Familiarity",
+						"Mishap",
+						"Similar Area",
+						"Off Target",
+						"On Target"
+					],
+					"colStyles": [
+						"col-8",
+						"col-1 text-center no-wrap",
+						"col-1 text-center no-wrap",
+						"col-1 text-center no-wrap",
+						"col-1 text-center no-wrap"
+					],
+					"rows": [
+						[
+							"Associated object",
+							"01",
+							"-",
+							"02-05",
+							"06–100"
+						],
+						[
+							"Very familiar",
+							"01–10",
+							"11–20",
+							"21–30",
+							"31–100"
+						],
+						[
+							"Seen casually",
+							"01–35",
+							"36–50",
+							"51–61",
+							"61–100"
+						],
+						[
+							"Viewed once",
+							"01–50",
+							"51–65",
+							"66–80",
+							"81–100"
+						],
+						[
+							"Description",
+							"01–50",
+							"51–65",
+							"66–80",
+							"81–100"
+						],
+						[
+							"False destination",
+							"01–60",
+							"61–100",
+							"—",
+							"—"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Familiarity",
+					"entries": [
+						"\"Associated object\" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library, bed linen from a royal suite, or a chunk of marble from a lich's secret tomb."
+					]
+				},
+				"\"Very familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen casually\" is someplace you have seen more than once but with which you aren't very familiar. \"Viewed once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.",
+				"\"False destination\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.",
+				{
+					"type": "entries",
+					"name": "On Target",
+					"entries": [
+						"You and your group (or the target object) appear where you want to."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Off Target",
+					"entries": [
+						"You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is {@dice 1d10 × 1d10} percent of the distance that was to be traveled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two {@dice d10}s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a {@dice d8} and designating 1 as north, 2 as northeast, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Similar Area",
+					"entries": [
+						"You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mishap",
+					"entries": [
+						"The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes {@damage 3d10} force damage, and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time)."
+					]
+				}
+			],
+			"miscTags": [
+				"TP",
+				"RO",
+				"OBS",
+				"OBJ"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					}
+				]
+			},
+			"savingThrow": [
+				"charisma"
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			]
+		}
+	]
+}
