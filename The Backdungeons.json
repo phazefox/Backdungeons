@@ -32,7 +32,7 @@
 				}
 			],
 			"hp": {
-				"special": "five times half your rogue level (the chwinga has a number of Hit Dice [d4s] equal to your rogue level)"
+				"special": "0 + three times your rogue level (the chwinga has a number of Hit Dice [d4s] equal to your rogue level)"
 			},
 			"speed": {
 				"walk": 20,
@@ -113,7 +113,6 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"hasToken": true
 		},
 		{
 			"name": "Throng the Defiler",
