@@ -84,15 +84,15 @@
 					]
 				},
 				{
-					"name": "Air Form",
-					"entries": [
-						"The spore cloud can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
-					]
-				},
-				{
 					"name": "Ephemeral",
 					"entries": [
 						"The spore cloud can't wear or carry anything."
+					]
+				},
+				{
+					"name": "Swarm of Microorganisms",
+					"entries": [
+						"The spore cloud can occupy another creature's space and vice versa, and it can move through a space as narrow as 1 inch wide without squeezing. The swarm can't regain hit points or gain temporary hit points."
 					]
 				}
 			],
