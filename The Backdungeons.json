@@ -70,37 +70,40 @@
 				"restrained",
 				"unconscious"
 			],
-			"cr": "2",
 			"trait": [
-				{
-					"name": "Swarm",
-					"entries": [
-						"The swarm can occupy another creature's space and vice versa. The swarm can't regain hit points or gain temporary hit points."
-					]
-				},
 				{
 					"name": "Fungal Toxicity",
 					"entries": [
 						"Whenever a creature moves into the Spore Cloud's space or starts its turn there, it must make a Constitution saving throw against your spell save DC. On a failure, it takes damage equal to one roll of your Halo of Spores damage and is {@condition poisoned} until the start of its next turn. On a success, it takes half as much damage and isn't {@condition poisoned}. A creature can take this damage no more than once per turn."
 					]
+				},
+				{
+					"name": "Pursuer",
+					"entries": [
+						"As a reaction, the spore cloud can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Air Form",
+					"entries": [
+						"The spore cloud can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+					]
+				},
+				{
+					"name": "Ephemeral",
+					"entries": [
+						"The spore cloud can't wear or carry anything."
+					]
 				}
-			],
-			"traitTags": [
-				"Incorporeal Movement"
 			],
 			"senseTags": [
 				"B"
 			],
-			"hasFluff": true,
 			"resist": [
 				"bludgeoning",
 				"piercing",
 				"slashing"
 			],
-			"token": {
-				"name": "",
-				"source": ""
-			}
 		},
 		{
 			"name": "Glass Eye",
