@@ -74,7 +74,7 @@
 				{
 					"name": "Fungal Toxicity",
 					"entries": [
-						"Whenever a creature moves into the Spore Cloud's space or starts its turn there, it must make a Constitution saving throw against your spell save DC. On a failure, it takes damage equal to one roll of your Halo of Spores damage and is {@condition poisoned} until the start of its next turn. On a success, it takes half as much damage and isn't {@condition poisoned}. A creature can take this damage no more than once per turn."
+						"Whenever a creature starts its turn in the Spore Cloud's space, it must make a Constitution saving throw against your spell save DC. On a failure, it takes damage equal to one roll of your Halo of Spores damage and is {@condition poisoned} until the start of its next turn. On a success, it takes half as much damage and isn't {@condition poisoned}. A creature can take this damage no more than once per turn."
 					]
 				},
 				{
