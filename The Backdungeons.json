@@ -18,6 +18,7 @@
 		{
 			"name": "Spore Cloud",
 			"source": "TheBackdungeons",
+			"summonedByClass": "Druid|PHB",
 			"size": [
 				"M"
 			],
@@ -92,6 +93,12 @@
 					"name": "Swarm of Microorganisms",
 					"entries": [
 						"The spore cloud can occupy another creature's space and vice versa, and it can move through a space as narrow as 1 inch wide without squeezing. The swarm can't regain hit points or gain temporary hit points."
+					]
+				}
+				{
+					"name": "Passive",
+					"entries": [
+						"The spore cloud can't take actions."
 					]
 				}
 			],
