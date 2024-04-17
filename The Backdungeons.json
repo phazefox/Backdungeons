@@ -33,7 +33,7 @@
 				13
 			],
 			"hp": {
-				"special": "0 + your druid level"
+				"special": "20"
 			},
 			"speed": {
 				"walk": 0,
