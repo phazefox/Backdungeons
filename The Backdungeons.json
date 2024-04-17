@@ -18,7 +18,6 @@
 		{
 			"name": "Spore Cloud",
 			"source": "TheBackdungeons",
-			"summonedByClass": "Druid|PHB",
 			"size": [
 				"M"
 			],
