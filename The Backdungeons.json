@@ -32,8 +32,7 @@
 				13
 			],
 			"hp": {
-				"formula": "5d8",
-				"average": 22
+				"special": "0 + two times your druid level"
 			},
 			"speed": {
 				"walk": 0,
