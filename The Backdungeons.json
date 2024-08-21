@@ -332,7 +332,9 @@
 			"token": {
 				"name": "Chwinga",
 				"source": "ToA"
-			}
+			},
+			"hasFluff": false,
+			"hasFluffImages": false
 		},
 		{
 			"name": "Throng the Defiler",
@@ -450,7 +452,10 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"tokenUrl": "https://5e.tools/img/MPMM/Ogre Battering Ram.png",
+			"token": {
+				"name": "Ogre Battering Ram",
+				"source": "MTF"
+			},
 			"fluff": {
 				"name": "Ogre Battering Ram",
 				"source": "MPMM",
