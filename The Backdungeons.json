@@ -330,9 +330,9 @@
 				"I"
 			],
 			"token": {
-			"name": "Chwinga",
-			"source": "ToA"
-		},
+				"name": "Chwinga",
+				"source": "ToA"
+			},
 		},
 		{
 			"name": "Throng the Defiler",
