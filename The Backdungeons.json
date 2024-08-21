@@ -332,9 +332,7 @@
 			"token": {
 				"name": "Chwinga",
 				"source": "ToA"
-			},
-			"hasFluff": false,
-			"hasFluffImages": false
+			}
 		},
 		{
 			"name": "Throng the Defiler",
