@@ -328,11 +328,7 @@
 			],
 			"spellcastingTags": [
 				"I"
-			],
-			"token": {
-				"name": "Chwinga",
-				"source": "ToA"
-			}
+			]
 		},
 		{
 			"name": "Throng the Defiler",
@@ -448,41 +444,6 @@
 			"miscTags": [
 				"MW"
 			],
-			"hasFluff": true,
-			"hasFluffImages": true,
-			"token": {
-				"name": "Ogre Battering Ram",
-				"source": "MTF"
-			},
-			"fluff": {
-				"name": "Ogre Battering Ram",
-				"source": "MPMM",
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "internal",
-							"path": "bestiary/MPMM/Ogre Battering Ram.webp"
-						},
-						"credit": "Craig J Spearing"
-					}
-				],
-				"entries": [
-					{
-						"type": "entries",
-						"entries": [
-							"An ogre battering ram carries an enormous club that's primarily used for bashing doors into kindling but also works well for smashing foes. These ogres are drilled in two simple tasks: rushing forward to shatter enemy fortifications and using their weapons to force an advancing enemy to halt."
-						]
-					},
-					{
-						"type": "section",
-						"name": "Ogres of War",
-						"entries": [
-							"Ogres love to rush headlong into battle, but with enough time and patience, some of them learn to carry out specialized missions. The names they are given—the battering ram, the bolt launcher, the chain brute, and the howdah—reflect their particular functions. These jobs are tailored to take advantage of an ogre's strengths."
-						]
-					}
-				]
-			},
 			"save": {
 				"str": "+7",
 				"con": "+6"
@@ -706,7 +667,6 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true,
-			"tokenUrl": "https://5e.tools/img/FTD/Deep Dragon Wyrmling.png",
 			"fluff": {
 				"name": "Deep Dragon Wyrmling",
 				"source": "FTD",
