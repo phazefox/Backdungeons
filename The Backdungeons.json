@@ -329,7 +329,10 @@
 			"spellcastingTags": [
 				"I"
 			],
-			"tokenUrl": "https://5e.tools/img/ToA/Chwinga.png"
+			"token": {
+			"name": "Chwinga",
+			"source": "ToA"
+		},
 		},
 		{
 			"name": "Throng the Defiler",
